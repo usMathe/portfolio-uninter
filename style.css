@@ -9,7 +9,7 @@
     --nav-text: #333;
 }
 
-/* Classe aplicada via JS para tema escuro [cite: 122] */
+/* Classe aplicada via JS para tema escuro  */
 .dark-theme {
     --bg-color: #121212;
     --text-color: #e0e0e0;

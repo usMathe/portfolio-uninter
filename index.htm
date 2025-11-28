@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Matheus Pereira - Data Engineer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">MP.<span>Data</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#formacao">Formação</a></li>
+                    <li><a href="#portfolio">Portfólio</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                    <li><button id="theme-toggle">🌙 Tema</button></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Olá, sou Matheus Pereira</h1>
+            <h2>Data Analytics & Engineering</h2>
+            <p>Especialista em Python, SQL e Cloud (GCP & AWS).</p>
+            <a href="#contato" class="btn">Entrar em contato</a>
+        </div>
+    </section>
+
+    <section id="sobre" class="section">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="sobre-content">
+                <p>
+                    Sou um entusiasta da área de tecnologia e atualmente atuo na área de dados. Desenvolvo pipelines ETL em Python, manipulo grandes volumes de dados no BigQuery e crio dashboards estratégicos.
+                </p>
+                <p>
+                    Já contribui para automações corporativas utilizando Power Automate, otimizando tarefas repetitivas e ganhando eficiência operacional. Estou em constante evolução, com foco em dados e cloud, sempre buscando aplicar soluções escaláveis e inteligentes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="formacao" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Formação Acadêmica</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>Tecnólogo em Ciência de Dados</h3>
+                    <span class="date">Set 2025 - Mar 2028</span>
+                    <p>UNINTER Centro Universitário Internacional</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Tecnólogo em Análise e Desenv. de Sistemas</h3>
+                    <span class="date">Ago 2022 - Dez 2025</span>
+                    <p>Fatec Carapicuíba</p>
+                </div>
+                <div class="timeline-item">
+                    <h3>Computação em Nuvem</h3>
+                    <span class="date">Jan 2024 - Abr 2024</span>
+                    <p>Escola da Nuvem</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2 class="section-title">Portfólio e Projetos</h2>
+            <p style="text-align: center; margin-bottom: 20px;">Alguns dos meus trabalhos e competências técnicas.</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Pipelines ETL</h3>
+                    <p>Desenvolvimento de pipelines em Python para automação de processos de dados.</p>
+                    <span class="tag">Python</span> <span class="tag">ETL</span>
+                </div>
+                <div class="project-card">
+                    <h3>BigQuery & SQL</h3>
+                    <p>Manipulação e atualização de bases de dados robustas utilizando SQL no Google Cloud.</p>
+                    <span class="tag">SQL</span> <span class="tag">GCP</span>
+                </div>
+                <div class="project-card">
+                    <h3>Dashboards Looker</h3>
+                    <p>Criação de dashboards estratégicos para análise e visualização de dados.</p>
+                    <span class="tag">BI</span> <span class="tag">Looker Studio</span>
+                </div>
+                <div class="project-card">
+                    <h3>Automação Corporativa</h3>
+                    <p>Automação com Power Automate para melhoria da eficiência operacional.</p>
+                    <span class="tag">Power Automate</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <form id="contact-form">
+                <div class="form-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" placeholder="Sua mensagem..." required></textarea>
+                </div>
+                <button type="submit" class="btn">Enviar Mensagem</button>
+            </form>
+            
+            <div class="social-links">
+                <p>Ou conecte-se via:</p>
+                <a href="https://www.linkedin.com/in/matheus-pereira01" target="_blank">LinkedIn</a> |
+                <a href="mailto:matheus42057098@gmail.com">Email</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Matheus Pereira. Desenvolvido para atividade prática UNINTER.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
